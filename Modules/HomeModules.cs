@@ -18,7 +18,7 @@ namespace Parcels
           Height = Request.Query["height"],
           Weight = Request.Query["weight"]
         };
-        return View["results.html", myParcelVariables];
+        return View["results.cshtml", myParcelVariables];
       };
     }
   }
